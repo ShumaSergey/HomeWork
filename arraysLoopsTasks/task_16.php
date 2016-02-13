@@ -7,7 +7,7 @@ $str = "";
 
 foreach ($arr as $key => $item){
     if (($key == 2) || ($key == 5)){
-        $str = $str . $item . " ";
+        $str = $str . $item . "<br>";
     } elseif($key == 8) {
         $str = $str . $item;
     } else {
