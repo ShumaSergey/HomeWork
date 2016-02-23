@@ -10,6 +10,6 @@ function listOfFile($dir){
     }
 }
 
-$dir = 'C:';
+$dir = 'E:';
 
 listOfFile($dir);

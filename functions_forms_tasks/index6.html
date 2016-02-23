@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form File Send</title>
+</head>
+<body>
+<form enctype="multipart/form-data" action="task_6.php" method="post" >
+    <input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
+    Отправить этот файл: <input name="pictures[]" type="file" multiple/>
+    <input type="submit" value="Отправить файл" />
+</form>
+</body>
+</html>

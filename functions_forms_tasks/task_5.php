@@ -19,7 +19,7 @@ function listOfFile($dir, $searchWord){
     }
 }
 
-$dir = 'C:';
+$dir = 'D:';
 $searchWord = 'boot';
 
 listOfFile($dir, $searchWord);

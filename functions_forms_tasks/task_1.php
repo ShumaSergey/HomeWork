@@ -59,5 +59,8 @@ function getCommonWords($userMsg1, $userMsg2){
     */
 }
 
-getCommonWords($userMsg1, $userMsg2);
+if ($_GET) {
+    getCommonWords($userMsg1, $userMsg2);
+}
+
 

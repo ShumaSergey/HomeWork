@@ -1,0 +1,33 @@
+.myBackground{
+    background: #d58628 ;
+}
+.myBorder {
+    background: darkred;
+    text-align: center;
+}
+
+.myHeader {
+    color: whitesmoke;
+}
+.leftComment {
+    margin: 3px 3px 3px 3px;
+    text-align: left;
+}
+
+.rightComment {
+    margin: 3px 3px 3px 3px;
+    text-align: left;
+}
+
+p .myText {
+    font-size: 18px;
+}
+
+/* создаю кнопку для сполера + выкл - вкл */
+button.spoiler:after {
+    content: " [-]";
+}
+button.spoiler.collapsed:after {
+    content: " [+]";
+}
+
