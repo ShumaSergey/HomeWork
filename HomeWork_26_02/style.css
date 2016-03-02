@@ -1,0 +1,24 @@
+                        
+/* создаю кнопку для сполера + выкл - вкл */
+button.spoiler:after {
+    content: " [-]";
+}
+button.spoiler.collapsed:after {
+    content: " [+]";
+}
+
+.myHeaderB{
+    background: #a29b92;
+}
+.myArticleB{
+    background: #1cbea6;
+}
+.colHeight{
+    height: 550px;
+}
+.myTextRight{
+    text-align: left;
+}
+.myIcon{
+    color: white;
+}

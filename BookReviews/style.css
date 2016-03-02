@@ -19,6 +19,9 @@
     text-align: left;
 }
 
+.myColor{
+    color: #dd562d;
+}
 p .myText {
     font-size: 18px;
 }

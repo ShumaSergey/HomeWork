@@ -12,8 +12,8 @@ require_once 'bookReviwesFunction.php';
     <meta charset="UTF-8">
     <title>Comment</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -45,7 +45,7 @@ require_once 'bookReviwesFunction.php';
             <div class="col-lg-10 col-lg-offset-1 myBorder">
                 <!-- емблемка страници -->
                 <div class="col-lg-1">
-                    <i class="fa fa-book fa-5x"></i>
+                    <i class="fa fa-book fa-5x myColor"></i>
                 </div>
                 <!-- заголовок страници -->
                 <div class="col-lg myHeader">
@@ -63,7 +63,7 @@ require_once 'bookReviwesFunction.php';
                             <div class="col-lg-2">
                                 <button type="submit" name="send" class="btn btn-danger btn-block">Send comment</button>
                             </div>
-                            <!-- Кнопка для информации (о правилах "Гостевой Книги") -->
+                            <!-- Кнопка для вывода спойлера информации (о правилах "Гостевой Книги") -->
                             <div class="col-lg-2 col-lg-offset-1">
                                 <button type="button"
                                         name="inform"
